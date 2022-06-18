@@ -1,8 +1,9 @@
 //An array of nice color codes we shall pick from
-let niceColors = ["#C5514C", "#EC9D6C", "#FAE2B7", "#6D7D8F", "#52728C"];
+let niceColors = ["red", "pink", "yellow", "green", "blue"];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  background("cyan")
   //noLoop();  //uncomment this if you DON'T want animation
 }
 
