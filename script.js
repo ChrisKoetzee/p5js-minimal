@@ -11,7 +11,7 @@ function draw() {
   let chosenColor = random(niceColors);
   fill(chosenColor);
   let size = random(20, 80);
-  circle(mouseX, mouseY, size);
+  square(mouseX, mouseY, size);
 }
 
 //Allow clearing the canvas by clicking...
